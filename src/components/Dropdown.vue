@@ -1,16 +1,22 @@
 <template>
-    <div class="period">Moscow</div>
+    <div>
+        <City          
+         :city_data="CITY" 
+        />
+    </div>
 </template>
 
 <script>
 
+import City from '@/components/City.vue'
 import {mapActions, mapGetters} from 'vuex'
 
 export default {
-  name: 'Dropdown',  
-  props: {
-    city: []
-  },
+  name: 'Dropdown',
+  components: {
+    City
+  },  
+  props: {},
   data() {
     return {}
   },
