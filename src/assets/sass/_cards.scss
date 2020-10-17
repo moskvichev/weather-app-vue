@@ -1,5 +1,6 @@
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .card {
@@ -8,6 +9,7 @@
     backdrop-filter: blur(15px);
     border: 1px solid #f8f9fa;
     color: #1d2124;
+    margin-bottom: 20px;
 }
 .card-header {
     font-size: 20px;

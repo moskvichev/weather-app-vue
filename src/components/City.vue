@@ -7,7 +7,7 @@ export default {
     name: "City",
     props: {
         city_data: {
-            type: Object           
+                       
         }
     },
     data() {

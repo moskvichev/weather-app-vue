@@ -34,5 +34,5 @@ export default {
     this.GET_CITY_FROM_API()
   }
 }
-console.log(Object)
+
 </script>
