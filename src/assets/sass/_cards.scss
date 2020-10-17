@@ -3,7 +3,7 @@
     justify-content: space-evenly;
 }
 .card {
-    width: 200px;
+    width: 160px;
     background-color: unset;
     backdrop-filter: blur(5px);
     border: 1px solid #f8f9fa;
@@ -11,8 +11,12 @@
 }
 .card-header {
     font-size: 20px;
-    border-bottom: 1px solid rgba(248,249,250,1)
+    border-bottom: 1px solid rgba(248,249,250,1);
+    text-align: center;
 }
 .card-body {
     
+}
+.card-text {
+    font-size: 14px;
 }
