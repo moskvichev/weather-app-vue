@@ -1,0 +1,21 @@
+.btn-secondary {
+    color: #fff;
+    background-color: unset;
+    border-color: #6c757d;
+    backdrop-filter: blur(5px);
+}
+.btn-secondary.focus, .btn-secondary:focus {
+    color: #fff;
+    background-color: unset;
+    border-color: #545b62;
+    box-shadow: 0 0 0 0.2rem rgba(130,138,145,.5);
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: unset;
+    border-color: #545b62;
+}
+.period {
+    font-size: 23px;
+    color: aliceblue;
+}

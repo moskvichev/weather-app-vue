@@ -1,0 +1,20 @@
+#app {
+    background: url(assets/img/moto.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 720px;
+}
+
+h1 {
+    color: #e3e7ea;
+    text-align: center;
+}
+
+.block {
+    margin-top: 25px;
+}
+
+.col-flex {
+    display: flex;
+    justify-content: space-between;
+}
