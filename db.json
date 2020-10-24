@@ -1,0 +1,88 @@
+{
+  "consolidated_weather" : [
+  {
+  "id" : 5235490576924672,
+  "weather_state_name" : "Showers",
+  "applicable_date" : "2020-10-12",
+  "min_temp" : 9.4,
+  "max_temp" : 14.605,
+  "the_temp" : 14.004999999999999,
+  "wind_speed" : 2.8989386926376626,
+  "wind_direction" : 200.10876481593948,
+  "air_pressure" : 1017,
+  "humidity" : 82,
+  "visibility" : 7.596573510697526,
+  "predictability" : 73
+  },
+  {
+  "id" : 5779690447962112,
+  "weather_state_name" : "Heavy Cloud",
+  "applicable_date" : "2020-10-13",
+  "min_temp" : 9.59,
+  "max_temp" : 14.64,
+  "the_temp" : 14.11,
+  "wind_speed" : 2.579434505946605,
+  "wind_direction" : 166.9100715449378,
+  "air_pressure" : 1019.5,
+  "humidity" : 85,
+  "visibility" : 10.760284935973912,
+  "predictability" : 71
+  },
+  {
+  "id" : 6615627918737408,
+  "weather_state_name" : "Showers",
+  "applicable_date" : "2020-10-14",
+  "min_temp" : 9.8,
+  "max_temp" : 13.98,
+  "the_temp" : 14.52,
+  "wind_speed" : 3.7999916723667115,
+  "wind_direction" : 118.79732125910262,
+  "air_pressure" : 1012.5,
+  "humidity" : 85,
+  "visibility" : 12.400083512288237,
+  "predictability" : 73
+  },
+  {
+  "id" : 4890307206316032,
+  "weather_state_name" : "Light Rain",
+  "applicable_date" : "2020-10-15",
+  "min_temp" : 7.98,
+  "max_temp" : 12.405000000000001,
+  "the_temp" : 12.620000000000001,
+  "wind_speed" : 4.601524529791352,
+  "wind_direction" : 229.62509937343884,
+  "air_pressure" : 1009,
+  "humidity" : 78,
+  "visibility" : 12.827897578143642,
+  "predictability" : 75
+  },
+  {
+  "id" : 4976245075869696,
+  "weather_state_name" : "Heavy Rain",
+  "applicable_date" : "2020-10-16",
+  "min_temp" : 4.65,
+  "max_temp" : 8.965,
+  "the_temp" : 4.63,
+  "wind_speed" : 5.848242662848962,
+  "wind_direction" : 358.5,
+  "air_pressure" : 1001,
+  "humidity" : 86,
+  "visibility" : 9.932618507913784,
+  "predictability" : 77
+  },
+  {
+  "id" : 6513981743169536,
+  "weather_state_name" : "Heavy Rain",
+  "applicable_date" : "2020-10-17",
+  "min_temp" : 1.42,
+  "max_temp" : 7.074999999999999,
+  "the_temp" : 1.96,
+  "wind_speed" : 5.876210530501869,
+  "wind_direction" : 24.499999999999996,
+  "air_pressure" : 999,
+  "humidity" : 90,
+  "visibility" : 9.806480155889604,
+  "predictability" : 77
+  }
+  ]  
+  }
