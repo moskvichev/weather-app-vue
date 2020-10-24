@@ -1,38 +1,30 @@
 <template>
-    <div>
-        <City          
-         :city_data="CITY" 
-        />
-    </div>
+  <div>
+    <City :city_data="CITY" />
+  </div>
 </template>
 
 <script>
-
-import City from '@/components/City.vue'
-import {mapActions, mapGetters} from 'vuex'
+import City from "@/components/City.vue";
+import { mapActions, mapGetters } from "vuex";
 
 export default {
-  name: 'Dropdown',
+  name: "Dropdown",
   components: {
-    City
-  },  
+    City,
+  },
   props: {},
   data() {
-    return {}
+    return {};
   },
   computed: {
-    ...mapGetters([
-      'CITY'
-    ]),
+    ...mapGetters(["CITY"]),
   },
   methods: {
-    ...mapActions([
-      'GET_CITY_FROM_API'
-    ])
+    ...mapActions(["GET_CITY_FROM_API"]),
   },
   mounted() {
-    this.GET_CITY_FROM_API()
-  }
-}
-
+    this.GET_CITY_FROM_API();
+  },
+};
 </script>

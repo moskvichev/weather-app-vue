@@ -1,41 +1,34 @@
 <template>
-    <div class="cards">
-
-        <Card 
-          v-for="weather in WEATHERS"
-          :key="weather.article"
-          :weather_data="weather"
-        />
-        
-    </div>    
+  <div class="cards">
+    <Card
+      v-for="weather in WEATHERS"
+      :key="weather.article"
+      :weather_data="weather"
+    />
+  </div>
 </template>
 
 <script>
-
-import Card from '@/components/Card.vue'
-import {mapActions, mapGetters} from 'vuex'
+import Card from "@/components/Card.vue";
+import { mapActions, mapGetters } from "vuex";
 
 export default {
-  name: 'Cards',
+  name: "Cards",
   components: {
-    Card
+    Card,
   },
   props: {},
   data() {
-    return {}
+    return {};
   },
   computed: {
-    ...mapGetters([
-      'WEATHERS'
-    ]),
+    ...mapGetters(["WEATHERS"]),
   },
   methods: {
-    ...mapActions([
-      'GET_WEATHERS_FROM_API'
-    ])
+    ...mapActions(["GET_WEATHERS_FROM_API"]),
   },
   mounted() {
-    this.GET_WEATHERS_FROM_API()
-  }
-}
+    this.GET_WEATHERS_FROM_API();
+  },
+};
 </script>
